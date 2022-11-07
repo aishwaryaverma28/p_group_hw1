@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+:root{
+    --bg-color:#48cae4
+
+}
+/* font-family: 'Fraunces', serif;
+font-family: 'Island Moments', cursive;
+font-family: 'Lobster', cursive; */
+/* ======================================================================css classes===================================================================================== */
+.container{
+    max-width: 1440px;
+    padding: 0 3rem;
+    margin: 0 auto;
+}
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.justCont{
+    justify-content: space-evenly;
+}
+.border{
+    border: 2px solid black;
+}
+/* ==================================================================header starts here================================================================================= */
+.nav--bar{
+padding-top:1.5rem ;
+padding-bottom: 1.5rem;
+font-size: larger;
+}
+.nav--bar a{
+    font-family: 'Lobster', cursive;
+    font-weight: 800;
+    font-size: xx-large;
+    letter-spacing: 0.3rem;
+   color: var(--bg-color);
+}
+.list{
+   min-width: 25rem;
+}
+.list__home{
+    color: var(--bg-color);
+}
+.list ul li:hover{
+    color: var(--bg-color);
+    cursor: pointer;
+}
+.nav--bar button{
+    padding: 1rem 1.5rem;
+    font-size: medium;
+    border: 2px solid var(--bg-color);
+    border-radius: 5px;
+    color: var(--bg-color);
+    background-color: white;
+}
+.nav--bar button:hover{
+    background-color: #f2b5d4;
+}
+
+
+
+
+/* ===============================================for tab view============================================ */
+@media screen and (max-width:950px) {
+    
+}
